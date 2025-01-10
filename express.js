@@ -3,10 +3,10 @@ const express = require('express');
 const { MongoClient } = require('mongodb');
 
 const app = express();
-const port = 5000;
+const port = 5010;
 
 // MongoDB connection details
-const uri = "mongodb://127.0.0.1:27017"; 
+const uri = "mongodb+srv://test:test123@cluster0.kwbnz.mongodb.net/"; 
 const dbName = "codinggita";
 
 // Middleware
